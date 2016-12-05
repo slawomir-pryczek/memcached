@@ -5053,7 +5053,7 @@ int main (int argc, char **argv) {
 
                 if (pch == NULL || strlen(optarg) == 0)
                     break;
-                    optarg = pch+1;
+                optarg = pch+1;
                 }
             settings.factor[i] = 0;
             break;
